@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'icons-ceivable-socials';
+  src:  url('./fonts/icons-ceivable-socials.eot?mgw7z7');
+  src:  url('./fonts/icons-ceivable-socials.eot?mgw7z7#iefix') format('embedded-opentype'),
+    url('./fonts/icons-ceivable-socials.ttf?mgw7z7') format('truetype'),
+    url('./fonts/icons-ceivable-socials.woff?mgw7z7') format('woff'),
+    url('./fonts/icons-ceivable-socials.svg?mgw7z7#icons-ceivable-socials') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="isc-socials-"], [class*=" isc-socials-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons-ceivable-socials' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.isc-socials-angel:before {
+  content: "\e900";
+}
+.isc-socials-facebook:before {
+  content: "\ea91";
+}
+.isc-socials-instagram:before {
+  content: "\ea92";
+}
+.isc-socials-twitter:before {
+  content: "\ea96";
+}
+.isc-socials-github:before {
+  content: "\eab0";
+}
+.isc-socials-linkedin:before {
+  content: "\eac9";
+}

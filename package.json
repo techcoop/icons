@@ -1,0 +1,28 @@
+{
+  "name": "icons-ceivable",
+  "version": "0.0.0",
+  "description": "Icon sets created by techcoop using icomoon.io to avoid including 999999999kb worth of unused glyphs.",
+  "main": "",
+  "author": "colingagnon",
+  "license": "MIT",
+  "repository": "techcoop/icons-ceivable",
+  "keywords": [
+    "techcoop",
+    "icons",
+    "icon fonts",
+    "icon sets",
+    "glyphs",
+    "social media icons"
+  ],
+  "devDependencies": {
+    "standard-version": "^4.0.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "socials/"
+  ],
+  "scripts": {
+    "release": "standard-version"
+  }
+}
